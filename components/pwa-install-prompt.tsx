@@ -95,7 +95,7 @@ export function PWAInstallPrompt() {
             </div>
             <div className="flex-1 space-y-2">
               <div>
-                <h3 className="font-semibold text-sm">Install CityBus Live</h3>
+                <h3 className="font-semibold text-sm">Install Vehicle Tracker</h3>
                 <p className="text-xs text-muted-foreground">
                   Get faster access and offline features by installing our app
                 </p>

@@ -1,7 +1,7 @@
 {
-  "name": "CityBus Live - Real-time Bus Tracking",
-  "short_name": "CityBus Live",
-  "description": "Track buses in real-time, get ETA predictions, and stay updated with your city's public transport",
+  "name": "Real Time Vehicle Tracking System",
+  "short_name": "Vehicle Tracker",
+  "description": "Track vehicles in real-time, get ETA predictions, and stay updated with your city's public transport",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

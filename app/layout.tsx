@@ -11,16 +11,16 @@ import { PWAInitializer } from "@/components/pwa-initializer"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "CityBus Live - Real-time Bus Tracking",
-  description: "Track buses in real-time, get ETA predictions, and stay updated with your city's public transport",
-  generator: "CityBus Live",
+  title: "Real Time Vehicle Tracking System", // Updated app title
+  description: "Track vehicles in real-time, get ETA predictions, and stay updated with your city's public transport",
+  generator: "Real Time Vehicle Tracking System", // Updated generator name
   manifest: "/manifest.json",
   themeColor: "#059669",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "CityBus Live",
+    title: "Real Time Vehicle Tracking System", // Updated Apple Web App title
   },
   icons: {
     icon: "/icon-192x192.png",

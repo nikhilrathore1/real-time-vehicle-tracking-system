@@ -16,15 +16,15 @@ export interface AuthState {
 export const mockUsers: User[] = [
   {
     id: "1",
-    email: "admin@citybus.com",
+    email: "admin@vehicletracker.com", // Updated admin email
     name: "System Administrator",
     role: "admin",
     permissions: ["manage_routes", "manage_fleet", "view_analytics", "manage_users"],
   },
   {
     id: "2",
-    email: "operator@citybus.com",
-    name: "Bus Operator",
+    email: "operator@vehicletracker.com", // Updated operator email
+    name: "Vehicle Operator",
     role: "operator",
     permissions: ["manage_fleet", "view_analytics"],
   },

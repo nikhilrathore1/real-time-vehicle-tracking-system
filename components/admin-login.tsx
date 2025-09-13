@@ -29,7 +29,7 @@ export function AdminLogin() {
     if (success) {
       router.push("/admin/dashboard")
     } else {
-      setError("Invalid credentials. Try admin@citybus.com / admin123")
+      setError("Invalid credentials. Try admin@vehicletracker.com / admin123")
     }
   }
 
@@ -114,7 +114,7 @@ export function AdminLogin() {
 
           <div className="mt-4 text-center">
             <p className="text-xs text-muted-foreground">For transport authority personnel only</p>
-            <p className="text-xs text-muted-foreground mt-1">Demo: admin@citybus.com / admin123</p>
+            <p className="text-xs text-muted-foreground mt-1">Demo: admin@vehicletracker.com / admin123</p>
           </div>
         </CardContent>
       </Card>

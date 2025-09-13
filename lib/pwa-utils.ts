@@ -107,7 +107,7 @@ export const isStandalone = (): boolean => {
 export const cacheRouteData = async (routeData: any) => {
   if ("caches" in window) {
     try {
-      const cache = await caches.open("citybus-route-data")
+      const cache = await caches.open("vehicle-tracker-route-data") // Updated cache name
       const response = new Response(JSON.stringify(routeData))
       await cache.put("/api/routes/cached", response)
     } catch (error) {
@@ -119,7 +119,7 @@ export const cacheRouteData = async (routeData: any) => {
 export const getCachedRouteData = async () => {
   if ("caches" in window) {
     try {
-      const cache = await caches.open("citybus-route-data")
+      const cache = await caches.open("vehicle-tracker-route-data") // Updated cache name
       const response = await cache.match("/api/routes/cached")
       if (response) {
         return await response.json()

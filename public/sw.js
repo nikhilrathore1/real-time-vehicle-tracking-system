@@ -1,6 +1,6 @@
-const CACHE_NAME = "citybus-live-v1"
-const STATIC_CACHE = "citybus-static-v1"
-const DYNAMIC_CACHE = "citybus-dynamic-v1"
+const CACHE_NAME = "vehicle-tracker-v1"
+const STATIC_CACHE = "vehicle-tracker-static-v1"
+const DYNAMIC_CACHE = "vehicle-tracker-dynamic-v1"
 
 // Assets to cache immediately
 const STATIC_ASSETS = [
@@ -152,7 +152,7 @@ self.addEventListener("push", (event) => {
   console.log("[SW] Push notification received")
 
   const options = {
-    body: event.data ? event.data.text() : "New bus update available",
+    body: event.data ? event.data.text() : "New vehicle update available",
     icon: "/icon-192x192.jpg",
     badge: "/icon-192x192.jpg",
     vibrate: [200, 100, 200],
@@ -174,7 +174,7 @@ self.addEventListener("push", (event) => {
     ],
   }
 
-  event.waitUntil(self.registration.showNotification("CityBus Live", options))
+  event.waitUntil(self.registration.showNotification("Real Time Vehicle Tracking", options))
 })
 
 // Notification click handler

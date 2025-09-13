@@ -9,8 +9,10 @@ export default function HomePage() {
       <Navbar />
       <main className="container mx-auto px-4 py-6 space-y-6">
         <div className="text-center space-y-2">
-          <h1 className="text-3xl font-bold text-foreground text-balance">Welcome to CityBus Live</h1>
-          <p className="text-muted-foreground text-pretty">Track your buses in real-time and never miss your ride</p>
+          <h1 className="text-3xl font-bold text-foreground text-balance">
+            Welcome to Real Time Vehicle Tracking System
+          </h1>
+          <p className="text-muted-foreground text-pretty">Track your vehicles in real-time and never miss your ride</p>
         </div>
 
         <CitySelector />
