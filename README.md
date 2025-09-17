@@ -1,12 +1,4 @@
 
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
-=======
 # Real-Time Vehicle Tracking System 🚍
 
 A real-time vehicle tracking system that allows users to monitor the live location and estimated arrival times of buses and other vehicles.
