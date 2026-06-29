@@ -11,8 +11,7 @@ A Progressive Web App for tracking city buses in real time — live map position
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat" alt="License">
 </p>
 
-> **🔗 Live Demo:** <!-- DEMO_URL --> _Deploying soon — see [Deployment](#-deployment) below._
-> Replace this line with your Vercel URL once deployed, e.g. `https://real-time-vehicle-tracking-system.vercel.app`
+> **🔗 Live Demo:** **[v0-citybuslivemain1.vercel.app](https://v0-citybuslivemain1.vercel.app)**
 
 ---
 
