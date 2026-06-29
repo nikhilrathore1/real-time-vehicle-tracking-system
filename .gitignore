@@ -18,6 +18,11 @@ yarn-error.log*
 
 # env files
 .env*
+!.env.example
+
+# package manager (this project uses pnpm)
+package-lock.json
+yarn.lock
 
 # vercel
 .vercel

@@ -1,0 +1,13 @@
+# Normalize line endings to LF across all platforms.
+# Prevents the whole repo from showing as "modified" on Windows (CRLF vs LF).
+* text=auto eol=lf
+
+# Treat these as binary (never normalized)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+*.woff binary
+*.woff2 binary
